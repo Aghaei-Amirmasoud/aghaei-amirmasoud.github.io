@@ -9,10 +9,10 @@ export const Footer = () => {
       </div>
       
       <div className="flex flex-wrap justify-center gap-6 mb-8">
-        <a href="#" className="text-on-surface-variant hover:text-primary transition-colors font-mono text-sm underline decoration-primary/30 underline-offset-4 uppercase">
+        <a href="https://github.com/Aghaei-Amirmasoud" target="_blank" rel="noopener noreferrer" className="text-on-surface-variant hover:text-primary transition-colors font-mono text-sm underline decoration-primary/30 underline-offset-4 uppercase">
           GitHub
         </a>
-        <a href="#" className="text-on-surface-variant hover:text-primary transition-colors font-mono text-sm underline decoration-primary/30 underline-offset-4 uppercase">
+        <a href="https://it.linkedin.com/in/amirmasoud-aghaei-a40917312" target="_blank" rel="noopener noreferrer" className="text-on-surface-variant hover:text-primary transition-colors font-mono text-sm underline decoration-primary/30 underline-offset-4 uppercase">
           LinkedIn
         </a>
         <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="text-on-surface-variant hover:text-primary transition-colors font-mono text-sm underline decoration-primary/30 underline-offset-4 uppercase">

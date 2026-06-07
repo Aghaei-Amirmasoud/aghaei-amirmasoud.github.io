@@ -28,14 +28,14 @@ export const NavBar = () => {
           isScrolled ? 'bg-background/80 backdrop-blur-md border-b border-white/10 shadow-lg' : 'bg-transparent'
         }`}
       >
-        <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-          <a href="#" className="flex items-center gap-2 group">
-            <Terminal className="w-6 h-6 text-primary group-hover:animate-pulse" />
-            <span className="font-mono font-bold text-lg text-primary tracking-tight">ENGINEER_CORE_v1.0</span>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 h-20 flex items-center justify-between">
+          <a href="#" className="flex items-center gap-2 group min-w-0 mr-4">
+            <Terminal className="w-6 h-6 text-primary shrink-0 group-hover:animate-pulse" />
+            <span className="font-mono font-bold text-base md:text-lg text-primary tracking-tight truncate">ENGINEER_CORE_v1.0</span>
           </a>
 
           {/* Desktop Nav */}
-          <div className="hidden md:flex items-center gap-8">
+          <div className="hidden md:flex items-center gap-8 shrink-0">
             <div className="flex gap-6">
               {navLinks.map((link) => (
                 <a 
@@ -57,7 +57,7 @@ export const NavBar = () => {
 
           {/* Mobile Menu Toggle */}
           <button 
-            className="md:hidden p-2 text-on-surface-variant hover:text-primary transition-colors focus:outline-none"
+            className="md:hidden p-2 -mr-2 shrink-0 text-on-surface-variant hover:text-primary transition-colors focus:outline-none"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
             {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}

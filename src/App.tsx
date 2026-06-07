@@ -11,10 +11,10 @@ import { Footer } from './components/Footer';
 
 export default function App() {
   return (
-    <div className="tech-grid-bg min-h-screen flex flex-col selection:bg-primary/30 selection:text-primary relative">
+    <div className="tech-grid-bg min-h-screen flex flex-col selection:bg-primary/30 selection:text-primary relative overflow-x-hidden">
       <NavBar />
       
-      <main className="flex-1 max-w-7xl mx-auto w-full px-6 flex flex-col">
+      <main className="flex-1 max-w-7xl mx-auto w-full px-4 sm:px-6 flex flex-col">
         <Hero />
         <Projects />
         <Education />

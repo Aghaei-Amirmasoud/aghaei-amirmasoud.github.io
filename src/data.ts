@@ -16,37 +16,37 @@ export const PORTFOLIO_DATA = {
       title: "Explainable ECtHR Legal Outcome Prediction",
       description: "Two-stage pipeline fine-tuning LegalBERT for premise extraction. Trained SVM/DT/EBM classifiers for multi-label violation prediction with high explainability via weight vector attribution.",
       tags: ["NLP", "PyTorch", "Transformers", "AWS SageMaker"],
-      github: "#"
+      github: "https://github.com/Aghaei-Amirmasoud/explainable_by_design_ecthr_a"
     },
     {
       title: "Sexism Detection on Social Media",
       description: "4-class sexism classification on English tweets using majority-voting label aggregation. Compared BiLSTM against fine-tuned Transformers (Twitter-RoBERTa, BERTweet) for domain-specific detection.",
       tags: ["Transformers", "TensorFlow", "PyTorch"],
-      github: "#"
+      github: "https://github.com/Aghaei-Amirmasoud/NLP_Sexisim_Detection_Task1"
     },
     {
       title: "Book Instance Detection on Shelves",
       description: "Built a multi-instance book detection pipeline using SIFT keypoints, FLANN matching, and RANSAC homography estimation with iterative masked detection.",
       tags: ["Computer Vision", "OpenCV", "NumPy"],
-      github: "#"
+      github: "https://github.com/Aghaei-Amirmasoud/product_recognition_of_books"
     },
     {
       title: "Pet Breed Classification",
       description: "Designed a custom 4-block CNN (PetNet) from scratch and fine-tuned ResNet-18 with progressive layer unfreezing against a 37-class pet breed classification task.",
       tags: ["Computer Vision", "PyTorch", "ResNet-18"],
-      github: "#"
+      github: "https://github.com/Aghaei-Amirmasoud/pet_classification"
     },
     {
       title: "Sports Tournament Scheduling",
       description: "Modeled NP-complete round-robin tournament scheduling under CP, SAT, SMT, and MIP paradigms with symmetry-breaking and redundant propagation strategies.",
       tags: ["MiniZinc", "Z3", "Combinatorial Opt."],
-      github: "#"
+      github: "https://github.com/Aghaei-Amirmasoud/CDMO_Proj"
     },
     {
       title: "Urban Transit Network Analysis",
       description: "Modeled Milan and Barcelona transit networks to compute SNA metrics, evaluating global efficiency, modularity, and resilience against betweenness attacks.",
       tags: ["NetworkX", "Pandas", "SNA"],
-      github: "#"
+      github: "https://github.com/omiid-n99/barcelona-milan-transit-network-analysis"
     }
   ],
   experience: [
