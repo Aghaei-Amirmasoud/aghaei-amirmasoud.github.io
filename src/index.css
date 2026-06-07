@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-background: #0a0a0b;
+  --color-surface: rgba(30, 41, 59, 0.4);
+  --color-primary: #c0c1ff;
+  --color-on-primary: #1000a9;
+  --color-on-surface: #e5e2e3;
+  --color-on-surface-variant: #aeb9d0;
+  --color-error: #ffb4ab;
+  --color-tertiary: #b9c7e0;
+  
+  --font-sans: "Geist", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer utilities {
+  .glass-panel {
+    background-color: rgba(30, 41, 59, 0.4);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+  }
+  .glass-panel:hover {
+    border-color: rgba(192, 193, 255, 0.4);
+    box-shadow: inset 0 0 10px rgba(192, 193, 255, 0.05);
+  }
+  .text-glow {
+    text-shadow: 0 0 10px rgba(192, 193, 255, 0.3);
+  }
+  .tech-grid-bg {
+    background-image: 
+        linear-gradient(to right, rgba(255,255,255,0.02) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(255,255,255,0.02) 1px, transparent 1px);
+    background-size: 24px 24px;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-on-surface);
+  font-family: var(--font-sans);
+}
