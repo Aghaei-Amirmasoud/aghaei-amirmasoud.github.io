@@ -112,7 +112,7 @@ export const PORTFOLIO_DATA = {
         "Vector databases using PineCone",
         "Creating AI-driven applications"
       ],
-      link: "#"
+      link: "https://www.udemy.com/certificate/UC-b819a07d-c960-4f8d-9f50-eedb3d375fe3/"
     }
   ],
   skills: [
